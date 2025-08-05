@@ -1,43 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>ThePixelKid Portfolio</title>
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-    <h1>ThePixelKid</h1>
-    <p>Aspiring Software Engineer | Python Developer</p>
-  </header>
+  <!-- Sticky Apple-style Navbar -->
+  <nav class="navbar">
+    <div class="nav-content">
+      <h1 class="logo">ThePixelKid</h1>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
 
+  <!-- Fullscreen Hero Section -->
+  <section class="hero">
+    <div class="hero-text">
+      <h2>Code. Learn. Build. Repeat.</h2>
+      <p>Aspiring Software Engineer | Python, Web & AI Developer</p>
+    </div>
+  </section>
+
+  <!-- About Section -->
   <section id="about">
     <h2>About Me</h2>
     <p>I’m passionate about building smart and helpful tools using Python. I enjoy working on web applications and exploring the world of AI.</p>
   </section>
 
+  <!-- Project Card Slider -->
   <section id="projects">
-    <h2>Projects In Progress</h2>
-    <ul>
-      <li><strong>To Do List:</strong> Write out your plans for the day.</li>
-      <li><strong>Basic Unity Game:</strong> Game to practise use of Unity.</li>
-    </ul>
+    <h2>Projects</h2>
+    <div class="slider">
+      <div class="card">
+        <h3>AI Notes Generator</h3>
+        <p>Summarizes notes using NLP techniques.</p>
+      </div>
+      <div class="card">
+        <h3>Personal Budget Tracker</h3>
+        <p>Web app to manage your finances easily.</p>
+      </div>
+      <div class="card">
+        <h3>Dev Diary</h3>
+        <p>A personal blog to track coding progress and insights.</p>
+      </div>
+    </div>
   </section>
 
+  <!-- Skills Section -->
   <section id="skills">
     <h2>Tech Stack</h2>
-    <p>Python, HTML, CSS, GitHub</p>
+    <p>Python, HTML, CSS, Flask, Django (learning), Git, GitHub</p>
   </section>
 
+  <!-- Contact Section -->
   <section id="contact">
     <h2>Contact</h2>
     <p>Check out my GitHub: <a href="https://github.com/ThePixelKid" target="_blank">ThePixelKid</a></p>
   </section>
 
+  <!-- Footer -->
   <footer>
     <p>&copy; 2025 ThePixelKid. All rights reserved.</p>
   </footer>
 </body>
 </html>
-
