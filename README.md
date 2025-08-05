@@ -1,2 +1,2 @@
 # Portfolio
-Portfolio File For Future and Current Projects
+Welcome to my portfolio! I'm an aspiring software engineer with a passion for building smart, user-friendly web applications and experimenting with artificial intelligence. I work primarily with Python and enjoy turning ideas into working code. This portfolio showcases some of my personal projects, skills, and progress as I grow in the world of software development. I’m always learning, always building—and always up for a challenge.
